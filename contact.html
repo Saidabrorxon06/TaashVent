@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Tashvent</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">Tashvent</div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Uncomment the language switcher below if needed -->
+        <!--
+        <div class="language-switch">
+            <button class="lang-btn" onclick="changeLanguage('ENG')">ENG</button>
+            <button class="lang-btn" onclick="changeLanguage('RUS')">RUS</button>
+            <button class="lang-btn" onclick="changeLanguage('UZB')">UZB</button>
+        </div>
+        -->
+    </header>
+<br>
+<br>
+<br>
+<br>
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>Let us know how you would like to stay in touch.</p>
+            <form id="contact-form">
+                <input type="text" placeholder="First Name" id="first-name" required>
+                <input type="text" placeholder="Last Name" id="last-name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="tel" placeholder="Phone" id="phone" required>
+                <button type="submit" class="btn-c">Submit</button>
+            </form>
+            
+
+            <div class="map">
+                <h2>Our Location</h2>
+                <!-- Yandex map iframe -->
+                <div style="position:relative; overflow:hidden;">
+                    <a href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee; font-size:12px; position:absolute; top:0px;">Ташкент</a>
+                    <a href="https://yandex.uz/maps/10335/tashkent/?ll=69.207554%2C41.212774&mode=whatshere&utm_medium=mapframe&utm_source=maps&whatshere%5Bpoint%5D=69.207557%2C41.212575&whatshere%5Bzoom%5D=18.6&z=18.6"
+                        style="color:#eee; font-size:12px; position:absolute; top:14px;">Улица Шокирарык, 184 — Яндекс
+                        Карты</a>
+                    <iframe
+                        src="https://yandex.uz/map-widget/v1/?ll=69.207554%2C41.212774&mode=whatshere&whatshere%5Bpoint%5D=69.207557%2C41.212575&whatshere%5Bzoom%5D=18.6&z=18.6"
+                        width="550" height="200" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
